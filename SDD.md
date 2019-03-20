@@ -82,3 +82,33 @@
 			Bagian ini akan menjelaskan struktur data. Table yang terbentuk ada 2 (Dua)
 		dengan nama masing masing tablenya adalah sebagai berikut : <br>
 			<oL>
+				<li>Tabel karyawan</li>
+				<li>Tabel hitung_cost</li>
+			</oL>
+			Penjelasan fungsi dari masing masing tabel akan dijelaskan pada bagian berikut ini : <br>
+			Tabel admin, digunakan untuk menyimpan informasi Admin, dimana Admin ini dapat mengolah sebuah aplikasi dengan penuh seperti mengedit, simpan, hapus dan update. <br>
+			<img src="data.jpg" align="center" width="150" height="150"><br>
+			Tabel hitung, digunakan untuk menyimpan hasil efroth, durasi waktu, jumlah orang dan gaji setiap karyawan yang bekerja dalam sebuah project aplikasi.<br>
+			<img src="proyek.jpg" width="150" height="150">
+			<br>
+			<center>Tabel 2 Hitung Proyek </center>
+		</ol>
+	</ol>
+		<b>
+	<li>Deskripsi ketergantungan (dependency)</li></b>
+	<ol>
+		<b>4.1 Dekomposisi Modul</b><br>
+			<ol>
+				Ketika merancang sebuah Dependensi Inter-modul sistem, dapat dirancang dengan dua cara yang luas dan cara pertama adalah untuk merancang sistem yang lengkap dengan menggunakan sistem yang ada diketahui dan mengimplementasikan fitur baru yang diperlukan untuk meningkatkan efektivitas sistem dan mengujinya di kondisi nyata. Cara alternatif akan merancang sistem dan biasanya karena biaya untuk menyiapkan antarmuka antara modul. Modul dari siaran berita Sistem SCC tergantung pada penyebaran informasi. Ini antar-modul dari penelitian ini adalah tampilan dari pengumuman dan itu termasuk database sistem. Kemudian seluruh informasi yang telah dimasukkan akan disimpan dalam database, yang berasal dari proses input sampai pengumuman menampilkan ke monitor lain.<br>
+			</ol>
+		<b>4.2 Keterkaitan inter proses</b><br>
+			<ol>
+				Proses yang dilakukan oleh pengguna dalam melakukan pemesanan proyek aplikasi akan mempengaruhi beberapa proses lainya seperti penentuan value, dan penjadwalan. Juga data akan tersimpan sebagai riwayat proses pemesanan.<br>
+			</ol>
+		<b>4.3 Keterkaitan data</b><br>
+		<ol>
+		Dependensi data didasarkan pada pengguna. Mereka adalah orang yang akan memverifikasi atau menyetujui pengumuman antri.<br>
+	</ol>
+</ol>
+
+
